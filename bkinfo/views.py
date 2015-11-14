@@ -5,6 +5,7 @@ from models import Book, Author
 from django.http import HttpResponseRedirect, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
+# add in c4 branch
 @csrf_exempt
 def home(request):
 	author=request.REQUEST.get("author","")
