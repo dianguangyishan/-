@@ -77,3 +77,4 @@ def addauthor(request):
 		new_author.save()
 		return HttpResponseRedirect("/add/")
 	return render_to_response('addauthor.html')
+# add in b3 branch

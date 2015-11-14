@@ -13,3 +13,4 @@ class Book(models.Model):
     Publisher = models.CharField(max_length = 30)
     PublishDate = models.CharField(max_length = 30)
     Price = models.CharField(max_length = 30)
+#add in b3 branch
